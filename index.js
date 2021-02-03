@@ -1,5 +1,5 @@
 function getBMI() {
-    var weright, height;
+    var weight, height;
     weight = document.getElementById('weight').value;
     height = document.getElementById('height').value;
     var BMI = (weight) / (height * height);
